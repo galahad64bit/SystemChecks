@@ -1,0 +1,45 @@
+package crowdstrike
+
+import(
+
+)
+
+var (
+  pkgName = "falcon-sensor"
+  processPath = "/opt/Crowdstrike/falconctl
+
+
+  cid = "#####"
+)
+
+func main(){
+
+}
+TODO: Add returns
+func checkCrowdstrike(ctx context.Context)(string,error){
+// check crowdstrike processes and serivce
+
+}
+func isCrowdstrikeInstalled(ctx context.Context)(bool, error){
+// check if the falcon-sensor package is installed
+
+}
+
+func installCrowdstrike(ctx context.Context() error{
+// install the falcon-sensor package
+
+}
+func reinstallCrowdstrike(context.Context() error{
+// reinstall the falcon-sensor package
+
+}
+
+func restartCrowdstrike(ctx context.Context() error{
+// restart falcon-sensor
+
+}
+
+func unmaskCrowdstrike(ctx context.Context() error{
+// unmask falcon-sensor
+
+}

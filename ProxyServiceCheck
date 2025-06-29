@@ -1,0 +1,27 @@
+package proxy
+
+import(
+
+)
+
+var proxyProcesses = []string{
+  "/usr/sbin/proxy",
+  "proxy",
+  "proxy-agent",
+}
+
+func main {
+
+}
+
+func checkProxy(ctx context.Context)(string, error){
+
+}
+
+func restartProxy(ctx context.Context) error{
+
+}
+
+func reinstallProxy(cxt context.Context) error{
+
+}
